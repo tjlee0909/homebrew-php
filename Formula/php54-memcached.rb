@@ -18,7 +18,8 @@ class Php54Memcached < AbstractPhp54Extension
 
   def patches
     # adapt to libmemcached >= 1.0.9 new instance API (source: paravoid/php-memcached 37069e18ad399a8cc03d5fe9757e1481814ecb44)
-    "https://gist.github.com/ablyler/6331007/raw/"
+    # Hack added by TJ to get around our firewall
+    "http://pastebin.com/raw.php?i=ud2ifSzF"
   end
 
   def install
